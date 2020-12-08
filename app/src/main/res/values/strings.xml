@@ -1,3 +1,42 @@
 <resources>
     <string name="app_name">AllenAdDemo</string>
+
+    <string-array name="adtypes">
+        <item>Native</item>
+        <item>RewardedVideo</item>
+        <item>SplashAd</item>
+    </string-array>
+
+
+    <string-array name="Native">
+        <item>Pangle</item>
+        <item>Tencent</item>
+        <item>Mintegral</item>
+        <item>Vungle</item>
+        <item>Applovin</item>
+        <item>Admob</item>
+        <item>Mopub</item>
+        <item>ironSource</item>
+    </string-array>
+    <string-array name="RewardedVideo">
+        <item>Pangle</item>
+        <item>Tencent</item>
+        <item>Mintegral</item>
+        <item>Vungle</item>
+        <item>Applovin</item>
+        <item>Admob</item>
+        <item>Mopub</item>
+        <item>ironSource</item>
+    </string-array>
+    <string-array name="SplashAd">
+        <item>Pangle</item>
+        <item>Tencent</item>
+        <item>Mintegral</item>
+        <item>Vungle</item>
+        <item>Applovin</item>
+        <item>Admob</item>
+        <item>Mopub</item>
+        <item>ironSource</item>
+    </string-array>
+
 </resources>
