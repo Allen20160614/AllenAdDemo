@@ -68,6 +68,7 @@ public class NativeActivity extends BaseActivity {
                     public void onNativeExpressAdLoad(List<TTNativeExpressAd> ads) {
                         TTNativeExpressAd ttNativeExpressAd=ads.get(0);
                         if (ttNativeExpressAd!=null){
+                            ttNativeExpressAd.render();
                             ttNativeExpressAd.setExpressInteractionListener(new TTNativeExpressAd.ExpressAdInteractionListener() {
 
                                 //广告点击回调
@@ -92,6 +93,8 @@ public class NativeActivity extends BaseActivity {
                                 @Override
                                 public void onRenderSuccess(View view, float width, float height) {
                                     AllenLog("onRenderSuccess");
+                                    containerView.removeAllViews();
+                                    containerView.addView(view);
 
                                 }
                             });
