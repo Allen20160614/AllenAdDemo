@@ -39,4 +39,32 @@
         <item>ironSource</item>
     </string-array>
 
+    <string-array name="PanglePlacementIdsKey">
+        <item>nativevideo_potrait</item>
+        <item>nativevideo_landscape</item>
+        <item>nativevideo_marquee_LED_1</item>
+        <item>nativevideo_marquee_LED_2</item>
+        <item>nativevideo_videocenterinverticle_1</item>
+        <item>nativevideo_videocenterinverticle_2</item>
+        <item>nativevideo_textfloatinglayer_down</item>
+        <item>nativevideo_textfloatinglayer</item>
+        <item>nativevideo_imageleft_textright</item>
+        <item>nativevideo_imageright_textleft</item>
+        <item>nativevideo_3images</item>
+    </string-array>
+    <string-array name="PanglePlacementIdsValue">
+        <item>945661639</item>
+        <item>945661908</item>
+        <item>945669189</item>
+        <item>945669193</item>
+        <item>945669201</item>
+        <item>945669204</item>
+        <item>945669218</item>
+        <item>945669227</item>
+        <item>945669236</item>
+        <item>945669239</item>
+        <item>945669241</item>
+    </string-array>
+
+
 </resources>

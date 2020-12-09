@@ -4,9 +4,24 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
     <include layout="@layout/common_title_layout"/>
+
+    <Spinner
+        android:id="@+id/spinnerPlacement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:theme="@android:style/Theme.Light" />
     <FrameLayout
         android:id="@+id/container_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"></FrameLayout>
+    <Button
+        android:id="@+id/load_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Load"></Button>
+
+
 
 </LinearLayout>
